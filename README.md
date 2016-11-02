@@ -80,7 +80,7 @@ Add your answer to this readme file, commit your changes to this repository.
   </body>
 </html>
 ```
-#### Your answer: [2p]
+#### Your answer: The distance is 40px from the top and 40px from the left. The yellow box is the bar class, which has an absolute position. It means its top left corner is from 20px from its parent's top left corner. The yellow box's parent is the foo class div, which has also an absolute position, relative to its parent, which is the body. So foo's top-left corner in from 20px from the body's top-left corner. The distances add up, hence the 40px. None of the elements have border or margin, therefor no extra pixels needs to be added.
 
 
 ## 3. Explain concepts (~15 minutes) [4 points]
@@ -88,8 +88,8 @@ Add your answer to this readme file, commit your changes to this repository.
 
 
 ### Explain the difference between `display: block` and `display: inline` in CSS! What is `display: inline-block`?
-#### Your answer: [2p]
+#### Your answer: The display property controls how the element behaves. A block element by default takes up as much horizontal space as it can and as much vertical space as its content needs, though we can set its height and width. An inline element stays in line, does not break the text flow. Even if we apply padding or margin, it does not push the text out horizontally, only vertically. The inline-block combines the advantages of both: the element stays in line, but we can apply both width and height and it pushes the content away according to the settings.
 
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
-#### Your answer: [2p]
+#### Your answer: A section can be used for thematic grouping of contents, it is good for styling purposes also. The content of an article could stand alone, it could be meaningful without the other content of the site. A good example of using <article> might be at the wikipedia site containing the actual information (for example the biography of Margaret Hamilton). Or at a blog a new post can be within article tags.
