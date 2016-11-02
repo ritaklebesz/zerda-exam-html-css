@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.container {
+  display: flex;
+  padding: 0;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.container > img {
+  border-right: 10px solid #546294;
+  height: 180px;
+}
+
+.info {
+  padding: 20px;
+  width: 350px;
+  position: relative;
+}
+
+.light {
+  background-color: #FFFFF1;
+}
+
+.dark {
+  background-color: #ACB7E1;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.info p:first-of-type {
+  margin: 20px 0;
+}
+
+.title {
+  font-weight: bold;
+  width: 100px;
+}
+
+.title, .data {
+  display: inline-block;
+  margin: 0;
+}
+
+.info img {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
